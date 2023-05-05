@@ -1,0 +1,14 @@
+__pycache__
+.ipynb_checkpoints
+*.pt
+*.pkl
+*.json
+*.exr
+*.dat
+*.pth
+projector/external_dependencies/data/
+debug
+BFM
+checkpoints
+*.pyc
+!facemesh.pth
