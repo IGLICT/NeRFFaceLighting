@@ -5,7 +5,7 @@
 **NeRFFaceLighting: Implicit and Disentangled Face Lighting Representation Leveraging Generative Prior in Neural Radiance Fields**<br>
 Kaiwen Jiang, Shu-Yu Chen, Hongbo Fu, Lin Gao<br>
 
-[**Paper**]()
+[**Paper**](https://dl.acm.org/doi/10.1145/3597300)
 
 Abstract: *3D-aware portrait lighting control is an emerging and promising domain thanks to the recent advance of generative adversarial networks and neural radiance fields. Existing solutions typically try to decouple the lighting from the geometry and appearance for disentangled control with an explicit lighting representation (e.g., Lambertian or Phong). However, they either are limited to a constrained lighting condition (e.g., directional light) or demand a tricky-to-fetch dataset as supervision for the intrinsic compositions (e.g., the albedo). We propose NeRFFaceLighting to explore an implicit representation
 for portrait lighting based on the pretrained tri-plane representation to address the above limitations. We approach this disentangled lighting-control problem by distilling the shading from the original fused representation of both appearance and lighting (i.e., one tri-plane) to their disentangled representations (i.e., two tri-planes) with the conditional discriminator to supervise the lighting effects. We further carefully design the regularization to reduce the ambiguity of such decomposition and enhance the ability of generalization to unseen lighting conditions. Moreover, our method can be extended to enable 3D-aware real portrait relighting. Through extensive quantitative and qualitative evaluations, we demonstrate the superior 3D-
