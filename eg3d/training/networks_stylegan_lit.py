@@ -85,7 +85,7 @@ class LitImportanceRenderer(ImportanceRenderer):
         if options.get('density_noise', 0) > 0:
             out['sigma'] += torch.randn_like(out['sigma']) * options['density_noise']
         
-        if not options.get('density_only', False):
+        if not options.get('density_only', False) and lit_planes is not None:
             sampled_shading_features = sample_from_planes(
                 self.plane_axes, 
                 lit_planes, 
